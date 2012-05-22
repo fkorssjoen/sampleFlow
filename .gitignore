@@ -1,0 +1,7 @@
+.classpath
+.project
+.settings/
+stacktrace.log
+.target/
+target/
+target-eclipse/
