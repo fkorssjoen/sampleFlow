@@ -12,6 +12,5 @@ import org.junit.*
 class SimpleSessionControllerTests {
 
     void testSomething() {
-       fail "Implement me"
     }
 }

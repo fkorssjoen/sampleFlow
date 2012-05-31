@@ -2,10 +2,18 @@ package com.mercadolibre.sample
 
 class SimpleSessionController {
 
-    def index() {
-		def sessionID = session.id 
+    def index = {
+		def sessionID = session.id
 		
-		session.previuos = session.sessionSequence 
+		int step
+		try{
+			step = session.stepNumber
+			step++
+			session.stepNumber = step			
+			}catch(Exception e){
+			session.stepNumber = 0
+			}
+		
 		session.sessionSequence = sessionID + "-" + System.currentTimeMillis().toString()
 		
 		
@@ -42,6 +50,10 @@ class SimpleSessionController {
 		}		
 				
 		thirdStep{
+			on("back"){
+				flow.actualStep = new String("b")
+				flow.stepNumber = 2
+				}.to("secondStep")
 			
 			}	
 				
