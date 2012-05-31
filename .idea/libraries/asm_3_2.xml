@@ -1,0 +1,33 @@
+<component name="libraryTable">
+  <library name="asm-3.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/asm-3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/kryo-1.04.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/kryo-serializers-0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/memcached-session-manager-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/memcached-session-manager-tc6-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/minlog-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/msm-kryo-serializer-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/reflectasm-1.01.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spymemcached-2.7.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../memcached-session-manager/kryo-serializer/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../memcached-session-manager/kryo-serializer/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../memcached-session-manager/flexjson-serializer/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../memcached-session-manager/flexjson-serializer/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../memcached-session-manager/core/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../memcached-session-manager/core/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../memcached-session-manager/javolution-serializer/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../memcached-session-manager/javolution-serializer/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../memcached-session-manager/serializer-benchmark/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../memcached-session-manager/xstream-serializer/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../memcached-session-manager/xstream-serializer/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../memcached-session-manager/tomcat6/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../memcached-session-manager/tomcat6/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../memcached-session-manager/tomcat7/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../memcached-session-manager/tomcat7/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

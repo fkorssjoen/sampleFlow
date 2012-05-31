@@ -2,6 +2,8 @@ package com.mercadolibre.sample
 
 class SimpleSessionController {
 
+    def flowExecutor
+
     def index() {
 		def sessionID = session.id 
 		
